@@ -12,6 +12,13 @@
 		576014761D74E4BF00AE0FFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 576014741D74E4BF00AE0FFB /* Main.storyboard */; };
 		576014781D74E4BF00AE0FFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 576014771D74E4BF00AE0FFB /* Assets.xcassets */; };
 		5760147B1D74E4BF00AE0FFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 576014791D74E4BF00AE0FFB /* LaunchScreen.storyboard */; };
+		5760148A1D74E5F800AE0FFB /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 576014861D74E5F800AE0FFB /* NotoSans-Bold.ttf */; };
+		5760148B1D74E5F800AE0FFB /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 576014871D74E5F800AE0FFB /* NotoSans-BoldItalic.ttf */; };
+		5760148C1D74E5F800AE0FFB /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 576014881D74E5F800AE0FFB /* NotoSans-Italic.ttf */; };
+		5760148D1D74E5F800AE0FFB /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 576014891D74E5F800AE0FFB /* NotoSans-Regular.ttf */; };
+		576014901D74EA3100AE0FFB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5760148F1D74EA3100AE0FFB /* Constants.swift */; };
+		576014921D74EBC700AE0FFB /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576014911D74EBC700AE0FFB /* MaterialView.swift */; };
+		576014941D74F23E00AE0FFB /* facebook-connect.png in Resources */ = {isa = PBXBuildFile; fileRef = 576014931D74F23E00AE0FFB /* facebook-connect.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		576014771D74E4BF00AE0FFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5760147A1D74E4BF00AE0FFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5760147C1D74E4BF00AE0FFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		576014861D74E5F800AE0FFB /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		576014871D74E5F800AE0FFB /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		576014881D74E5F800AE0FFB /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		576014891D74E5F800AE0FFB /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		5760148F1D74EA3100AE0FFB /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		576014911D74EBC700AE0FFB /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		576014931D74F23E00AE0FFB /* facebook-connect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "facebook-connect.png"; path = "Assets.xcassets/facebook-connect.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,61 @@
 		5760146F1D74E4BF00AE0FFB /* AppShowcase */ = {
 			isa = PBXGroup;
 			children = (
+				5760148E1D74E95800AE0FFB /* Util */,
+				576014851D74E5BF00AE0FFB /* Resources */,
+				576014841D74E5B800AE0FFB /* Model */,
+				576014831D74E5AD00AE0FFB /* View */,
+				576014821D74E59D00AE0FFB /* Controller */,
 				576014701D74E4BF00AE0FFB /* AppDelegate.swift */,
 				576014721D74E4BF00AE0FFB /* ViewController.swift */,
 				576014741D74E4BF00AE0FFB /* Main.storyboard */,
 				576014771D74E4BF00AE0FFB /* Assets.xcassets */,
+				576014931D74F23E00AE0FFB /* facebook-connect.png */,
 				576014791D74E4BF00AE0FFB /* LaunchScreen.storyboard */,
 				5760147C1D74E4BF00AE0FFB /* Info.plist */,
 			);
 			path = AppShowcase;
+			sourceTree = "<group>";
+		};
+		576014821D74E59D00AE0FFB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		576014831D74E5AD00AE0FFB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				576014911D74EBC700AE0FFB /* MaterialView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		576014841D74E5B800AE0FFB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		576014851D74E5BF00AE0FFB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				576014861D74E5F800AE0FFB /* NotoSans-Bold.ttf */,
+				576014871D74E5F800AE0FFB /* NotoSans-BoldItalic.ttf */,
+				576014881D74E5F800AE0FFB /* NotoSans-Italic.ttf */,
+				576014891D74E5F800AE0FFB /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5760148E1D74E95800AE0FFB /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				5760148F1D74EA3100AE0FFB /* Constants.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +183,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				576014941D74F23E00AE0FFB /* facebook-connect.png in Resources */,
+				5760148A1D74E5F800AE0FFB /* NotoSans-Bold.ttf in Resources */,
 				5760147B1D74E4BF00AE0FFB /* LaunchScreen.storyboard in Resources */,
+				5760148B1D74E5F800AE0FFB /* NotoSans-BoldItalic.ttf in Resources */,
+				5760148C1D74E5F800AE0FFB /* NotoSans-Italic.ttf in Resources */,
 				576014781D74E4BF00AE0FFB /* Assets.xcassets in Resources */,
 				576014761D74E4BF00AE0FFB /* Main.storyboard in Resources */,
+				5760148D1D74E5F800AE0FFB /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +203,8 @@
 			files = (
 				576014731D74E4BF00AE0FFB /* ViewController.swift in Sources */,
 				576014711D74E4BF00AE0FFB /* AppDelegate.swift in Sources */,
+				576014901D74EA3100AE0FFB /* Constants.swift in Sources */,
+				576014921D74EBC700AE0FFB /* MaterialView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
