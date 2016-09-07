@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		571335B01D7FBD3C00D3A95F /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571335AD1D7FBD3C00D3A95F /* Bolts.framework */; };
+		571335B11D7FBD3C00D3A95F /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571335AE1D7FBD3C00D3A95F /* FBSDKCoreKit.framework */; };
+		571335B21D7FBD3C00D3A95F /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571335AF1D7FBD3C00D3A95F /* FBSDKLoginKit.framework */; };
 		574BE3E71D789AF5000C5CD2 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574BE3E61D789AF5000C5CD2 /* MaterialButton.swift */; };
 		574BE3E91D789CE8000C5CD2 /* MaterialImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574BE3E81D789CE8000C5CD2 /* MaterialImage.swift */; };
 		574BE3EB1D78A0CB000C5CD2 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574BE3EA1D78A0CB000C5CD2 /* MaterialTextField.swift */; };
@@ -22,9 +25,14 @@
 		576014901D74EA3100AE0FFB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5760148F1D74EA3100AE0FFB /* Constants.swift */; };
 		576014921D74EBC700AE0FFB /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576014911D74EBC700AE0FFB /* MaterialView.swift */; };
 		576014941D74F23E00AE0FFB /* facebook-connect.png in Resources */ = {isa = PBXBuildFile; fileRef = 576014931D74F23E00AE0FFB /* facebook-connect.png */; };
+		CB611BD072825B1B856ECEBE /* Pods_AppShowcase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A9F0B3F5749B7594B2DD11A /* Pods_AppShowcase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3075C935457236F7D701DD19 /* Pods-AppShowcase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppShowcase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppShowcase/Pods-AppShowcase.debug.xcconfig"; sourceTree = "<group>"; };
+		571335AD1D7FBD3C00D3A95F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		571335AE1D7FBD3C00D3A95F /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		571335AF1D7FBD3C00D3A95F /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		574BE3E61D789AF5000C5CD2 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
 		574BE3E81D789CE8000C5CD2 /* MaterialImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialImage.swift; sourceTree = "<group>"; };
 		574BE3EA1D78A0CB000C5CD2 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
@@ -42,6 +50,8 @@
 		5760148F1D74EA3100AE0FFB /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		576014911D74EBC700AE0FFB /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 		576014931D74F23E00AE0FFB /* facebook-connect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "facebook-connect.png"; path = "Assets.xcassets/facebook-connect.png"; sourceTree = "<group>"; };
+		6A9F0B3F5749B7594B2DD11A /* Pods_AppShowcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppShowcase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		792B4136561C97A688F6438D /* Pods-AppShowcase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppShowcase.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppShowcase/Pods-AppShowcase.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,17 +59,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				571335B01D7FBD3C00D3A95F /* Bolts.framework in Frameworks */,
+				571335B11D7FBD3C00D3A95F /* FBSDKCoreKit.framework in Frameworks */,
+				571335B21D7FBD3C00D3A95F /* FBSDKLoginKit.framework in Frameworks */,
+				CB611BD072825B1B856ECEBE /* Pods_AppShowcase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4FC123BD61E98C10D119CA4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A9F0B3F5749B7594B2DD11A /* Pods_AppShowcase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		571335AC1D7FBCEE00D3A95F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				571335AD1D7FBD3C00D3A95F /* Bolts.framework */,
+				571335AE1D7FBD3C00D3A95F /* FBSDKCoreKit.framework */,
+				571335AF1D7FBD3C00D3A95F /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		576014641D74E4BF00AE0FFB = {
 			isa = PBXGroup;
 			children = (
 				5760146F1D74E4BF00AE0FFB /* AppShowcase */,
 				5760146E1D74E4BF00AE0FFB /* Products */,
+				89C03E577EE5C0CC3E7C026D /* Pods */,
+				4FC123BD61E98C10D119CA4E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +108,7 @@
 		5760146F1D74E4BF00AE0FFB /* AppShowcase */ = {
 			isa = PBXGroup;
 			children = (
+				571335AC1D7FBCEE00D3A95F /* Frameworks */,
 				5760148E1D74E95800AE0FFB /* Util */,
 				576014851D74E5BF00AE0FFB /* Resources */,
 				576014841D74E5B800AE0FFB /* Model */,
@@ -134,6 +169,15 @@
 			name = Util;
 			sourceTree = "<group>";
 		};
+		89C03E577EE5C0CC3E7C026D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3075C935457236F7D701DD19 /* Pods-AppShowcase.debug.xcconfig */,
+				792B4136561C97A688F6438D /* Pods-AppShowcase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5760147F1D74E4BF00AE0FFB /* Build configuration list for PBXNativeTarget "AppShowcase" */;
 			buildPhases = (
+				8C27A143E3EF7D9C46BB2E89 /* [CP] Check Pods Manifest.lock */,
 				576014691D74E4BF00AE0FFB /* Sources */,
 				5760146A1D74E4BF00AE0FFB /* Frameworks */,
 				5760146B1D74E4BF00AE0FFB /* Resources */,
+				E955BCDCA3554BB0C178B95F /* [CP] Embed Pods Frameworks */,
+				00105AEFD0E03F5A1FAD5B1F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,6 +251,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00105AEFD0E03F5A1FAD5B1F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppShowcase/Pods-AppShowcase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C27A143E3EF7D9C46BB2E89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E955BCDCA3554BB0C178B95F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppShowcase/Pods-AppShowcase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		576014691D74E4BF00AE0FFB /* Sources */ = {
@@ -327,8 +422,14 @@
 		};
 		576014801D74E4BF00AE0FFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3075C935457236F7D701DD19 /* Pods-AppShowcase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppShowcase",
+				);
 				INFOPLIST_FILE = AppShowcase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.zeroxp.AppShowcase;
@@ -338,8 +439,14 @@
 		};
 		576014811D74E4BF00AE0FFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 792B4136561C97A688F6438D /* Pods-AppShowcase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppShowcase",
+				);
 				INFOPLIST_FILE = AppShowcase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.zeroxp.AppShowcase;
