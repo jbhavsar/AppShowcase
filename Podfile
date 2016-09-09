@@ -3,5 +3,7 @@
 use_frameworks!
 
 target 'AppShowcase' do
-pod 'Firebase', '>= 2.5.1'
+pod 'Firebase'
+pod 'Firebase/Database'
+pod 'Firebase/Auth'
 end
