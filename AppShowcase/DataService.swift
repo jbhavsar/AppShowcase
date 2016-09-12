@@ -12,4 +12,5 @@ import Foundation
 class DataService {
 
     static let ds = DataService()
+    //private var _REF_BASE = Firebase(url: "")
 }
