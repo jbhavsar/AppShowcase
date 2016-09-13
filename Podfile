@@ -6,4 +6,5 @@ target 'AppShowcase' do
 pod 'Firebase'
 pod 'Firebase/Database'
 pod 'Firebase/Auth'
+pod 'Alamofire', '~> 3.0'
 end
